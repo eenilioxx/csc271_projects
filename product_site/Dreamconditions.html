@@ -7,30 +7,45 @@
     <head>
         <!--this is the name of the first page of the website-->
         <title>Interstellar_Planning/Weather_Picking</title>
+        <link href = "css/main.css" type = "text/css" rel="stylesheet" />
     </head>
     <body>
         <!--this is the top part of the website where the user sees the logo-->
         <img src="images/clear_logo.png" alt="Interstellar Planning Logo" width="375" height="200">
 
-        <h2>Main Hub</h2>
-        <h2>Pick Your Dream Date</h2>
-        <h1><strong>Pick Your Dream Weather Conditions</h1></strong>
-        <h2>Pick Your Dream Accomodations</h2>
-        <hr>
+        <h2 class = "section">Main Hub</h2>
+        <h2 class = "section">Pick Your Dream Date</h2>
+        <h1 class = "section"><strong>Pick Your Dream Weather Conditions</h1></strong>
+        <h2 class = "section">Pick Your Dream Accomodations</h2>
+        <hr class = "section">
         
         <a href = "MainHub.html"> <- last step </a>
-        <a href = "Dreamconditions.html"> next step -> </a>
+        <a href = "Dreamaccomodations.html"> next step -> </a>
         
         <hr>
-        <em><h1>Pick a Date!</h1></em>
+        <em><h1>Pick the Weather!!</h1></em>
 
-        <p> Pick the perfect time of year for your relaxing getaway</p>
-
-        <form action ="pickit.html" method = "post">
-            <label for="datepicking"></label>
-            <input type="date" name="(Based on the Milky Way's Earth time)"/>
+        <form action ="Dreamaccomodations.html" method = "post">
+            <p>Pick the perfect climate for your dream vacation!
             <br>
+                <input type="radio" name="(Based on popular climates)" value = "lava hot" checked = "checked"/> Lava Hot
             <br>
+                <input type="radio" name="(Based on popular climates)" value = "sunny" checked = "checked"/> Sunny
+            <br>
+                <input type="radio" name="(Based on popular climates)" value = "partly cloudy" checked = "checked"/> Partly Cloudy
+            <br>
+                <input type="radio" name="(Based on popular climates)" value = "cloudy" checked = "checked"/> Cloudy
+            <br>
+                <input type="radio" name="(Based on popular climates)" value = "raining" checked = "checked"/> Raining
+            <br>
+                <input type="radio" name="(Based on popular climates)" value = "hurricane" checked = "checked"/> Hurricane
+            <br>
+                <input type="radio" name="(Based on popular climates)" value = "tornado" checked = "checked"/> Tornado
+            <br>
+                <input type="radio" name="(Based on popular climates)" value = "snowy" checked = "checked"/> Snowy
+            <br>
+                <input type="radio" name="(Based on popular climates)" value = "hail" checked = "checked"/> Hail
+            </p>
             <input type="submit" name="Select" value = "Select"/>
         </form>
         <br>

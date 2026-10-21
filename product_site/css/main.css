@@ -1,0 +1,30 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #CAE8DD;
+}
+h1 h2 h3{
+    font-family: Helvetica, Arial;
+}
+h2.section {
+    text-align: center;
+}
+h1.section {
+    text-align: center;
+    color: #3475C9;
+}
+hr {
+    height:10px
+    color
+}
+a:link{
+    color:#19375f;
+    text-decoration: none;
+}
+a:visited{
+    color:#19375f;
+    text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
