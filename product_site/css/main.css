@@ -35,7 +35,7 @@ a:hover {
   padding: 5px; 
 }
 .header a{
-  float:center;
+  text-align: center;
   color: #162E28;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;

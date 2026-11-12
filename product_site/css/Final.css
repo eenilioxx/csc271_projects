@@ -1,0 +1,15 @@
+table {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.Finaltable {
+  text-align: center;
+  color: #162E28;
+  background-color: #EBF2F0;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 12px;
+  border-bottom: 2px
+}
