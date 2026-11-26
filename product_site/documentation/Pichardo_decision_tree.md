@@ -13,3 +13,5 @@ Diamonds are used for decision nodes.
 The terminal nodes and decision nodes are connected by labeled arrows for the branches. 
 
 ![alt text](image.png)
+
+- right now the site isn't as cute as I would want it to be, but I will change that over the break. I haven't quite figured out how to make it so that the forms edit the new section and keep the old one when you press the plus button. I will do more research and get back to it over the break.

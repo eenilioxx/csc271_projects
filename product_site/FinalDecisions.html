@@ -27,21 +27,38 @@
         </div>
         </div>
         
-        <table>
+        <table id = "vacationtable">
             <tr>
                 <td class = "Finaltable">Date (Milky Way)</td>
                 <td class = "Finaltable">Weather Conditions</td>
                 <td class = "Finaltable">Accomodations</td>
                 <td class = "Finaltable">Price</td>
-
+                <td class = "Finaltable actioncell"></td>
             </tr>
-            <tr>
+            <tr class = "vacationrow">
                 <td class = "Finaltable"><span id = "datepicked">Not Selected Yet...</span></td>
                 <td class = "Finaltable"><span id = "conditionspicked">Not Selected Yet...</span></td>
                 <td class = "Finaltable"><span id = "accompicked">Not Selected Yet</span></td>
-                <td class = "Finaltable">Not Accumulated Yet</td>
+                <td class = "Finaltable"><span id = "pricepicked">Not Accumulated Yet</span></td>
+                <td class = "Finaltable actioncell">
+                    <div class = "hovericons">
+                        <span class = "plusicon" title = "Create Another Section">➕</span>
+                        <span class = "rocketicon" title = "Send Details to Email">🚀</span>
+                        <span class = "trashicon" title = "Delete Data">🗑️</span>
+                    </div>
+                </td>
             </tr>
         </table>
+
+        <div id = "emailsection">
+            <form id = "emailform">
+                <label for = "emailinput">Enter your preferred email:</label>
+                <input type = "email" id = "emailinput" />
+                <button type = "submit" id = "emailsubmit">Submit</button>
+                <button type = "button" id = "emailcancel">Cancel</button>
+            </form>
+        </div>
+
         <script src="js/final.js"></script>
     </body>
 </html>

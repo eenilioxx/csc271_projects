@@ -13,3 +13,86 @@ table {
   padding: 12px;
   border-bottom: 2px
 }
+
+/* had to ask google how to do this part because I was very confused (T^T) */
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.Finaltable {
+  text-align: center;
+  color: #162E28;
+  background-color: #EBF2F0;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 12px;
+  border-bottom: 2px solid #162E28;
+}
+
+.actioncell {
+  width: 110px;
+  white-space: nowrap;
+}
+
+.vacationrow:hover .Finaltable {
+  background-color: #DCE7E4;
+}
+
+.hovericons {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.vacationrow:hover .hovericons {
+  opacity: 1;
+}
+
+.hovericons span {
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 18px;
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+
+.hovericons span:hover {
+  transform: scale(1.25);
+}
+
+#emailsection {
+  display: none;
+  width: 50%;
+  margin: 20px auto;
+  padding: 16px;
+  text-align: center;
+  background-color: #EBF2F0;
+  color: #162E28;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 18px;
+  border: 2px solid #162E28;
+}
+
+#emailinput {
+  padding: 8px;
+  margin: 0 8px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  border: 1px solid #162E28;
+}
+
+#emailsubmit, #emailcancel {
+  padding: 8px 14px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #162E28;
+  color: #EBF2F0;
+  border: none;
+}
+
+#emailcancel {
+  background-color: #6c7a76;
+}
